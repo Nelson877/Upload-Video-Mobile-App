@@ -3,6 +3,8 @@ import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import CustomButton from "../components/CustomButton";
+import Loader from "../components/Loader";
+
 import { images } from "../constants";
 
 import { useGlobalContext } from "../context/GlobalProvider";
@@ -55,7 +57,7 @@ const Welcome = () => {
 
           <CustomButton
             title="Continue with Email"
-            handlePress={() => router.push("/")}
+            handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
           />
         </View>
