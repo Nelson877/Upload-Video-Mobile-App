@@ -11,10 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+     "statusBar": {
+        "backgroundColor": "#161622"
+      },
     "scheme": "uploadvideomobileapp",
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+       "package": "com.dzik.uploadvideomobileapp"
     },
     "android": {
       "adaptiveIcon": {
